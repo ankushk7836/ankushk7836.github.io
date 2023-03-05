@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+img{
+    display: block;
+    width: 50%;
+    transition: 100s;
+}
+div{
+    display: flex;
+}
+
+.left{
+    transform: translateX(-120%);
+}
+
+.right{
+    transform: translateX(120%);
+}
+   
